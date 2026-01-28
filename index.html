@@ -22,6 +22,7 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 
@@ -37,8 +38,16 @@
     </h1>
 
     <p class="hero-subtitle">
-      Frontend enthusiast crafting clean, interactive, and user-friendly interfaces.
+      Interested in building data-driven applications and AI-based solutions through practical projects.
     </p>
+
+    <!-- 👇 ADD HERE -->
+    <div class="hero-highlights">
+      <span>🎓 Engineering Student</span>
+      <span>📊 Data Analytics</span>
+      <span>💻 Frontend Development</span>
+      <span>🤖 AI Projects</span>
+    </div>
 
     <a href="resume.pdf" class="resume-btn">Download Resume</a>
   </div>
@@ -51,46 +60,53 @@
 
   <!-- ===== ABOUT SECTION ===== -->
   <section id="about" class="about">
+  <div class="about-container">
+
     <h2>About Me</h2>
-    <p class="about-text">
-    I’m a frontend enthusiast who enjoys turning ideas into clean, interactive interfaces.
-    I care about details, smooth interactions, and user-friendly design.
+
+    <p class="about-intro">
+      I’m a technology enthusiast with a strong interest in data-driven problem solving
+      and frontend development. I enjoy working at the intersection of data, design,
+      and user experience—turning insights into clean, meaningful, and usable outputs.
     </p>
 
-   <p class="about-text">
-    Currently, I’m focused on building responsive web interfaces, experimenting with animations,
-    and learning how good design improves user experience. I enjoy working with HTML, CSS,
-    and JavaScript to bring ideas to life.
+    <p class="about-intro">
+      My work spans data analytics projects, dashboards, and frontend interfaces.
+      I like building things that are not only functional, but also easy to understand
+      and visually clear for users.
     </p>
 
-
-
-    <div class="about-cards">
+    <!-- Cards -->
+    <div class="about-grid">
       <div class="about-card">
         <h3>Role</h3>
-        <p>Frontend / UI Enthusiast</p>
+        <p>Data Analytics & Frontend Enthusiast</p>
       </div>
 
       <div class="about-card">
         <h3>Interests</h3>
-        <p>UI Design, Animations, UX</p>
+        <p>Data Visualization, UI Design, Analytics, UX</p>
       </div>
 
       <div class="about-card">
         <h3>Tools</h3>
-        <p>HTML, CSS, JavaScript</p>
+        <p>Python, Power BI, HTML, CSS, JavaScript</p>
       </div>
+    </div>
 
-    <div class="about-extra">
-   <h3>What I Do</h3>
-  <ul>
-    <li>Build responsive and accessible web layouts</li>
-    <li>Create smooth UI animations and interactions</li>
-    <li>Convert designs into clean frontend code</li>
-  </ul>
+    <!-- Full-width card -->
+    <div class="about-card about-full">
+      <h3>What I Do</h3>
+      <ul>
+        <li>Analyze data and create meaningful dashboards</li>
+        <li>Build clean, responsive web interfaces</li>
+        <li>Transform insights into clear visual stories</li>
+        <li>Work on end-to-end projects from idea to output</li>
+      </ul>
+    </div>
+
   </div>
-
-  </section>
+</section>
 
   <!-- ===== GALLERY SECTION ===== -->
   <section id="gallery" class="gallery">
@@ -104,7 +120,61 @@
       <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" class="gallery-img" />
       <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" class="gallery-img" />
     </div>
-  </section>
+
+     <!-- ===== PROJECTS SECTION ===== -->
+ <section id="projects" class="projects">
+  <h2>Projects</h2>
+
+  <!-- MAIN PROJECT -->
+  <div class="project-main">
+    <a href="speech-to-image.jpg" target="_blank">
+      <img src="speech-to-image.jpg" alt="Speech to Image Generation">
+    </a>
+
+    <div class="project-content">
+      <h3>Speech to Image Generation</h3>
+      <p>
+        Converts Hindi speech to English text and generates relevant images using AI.
+        <br>
+        This project demonstrates end-to-end automation from voice input to visual output.
+      </p>
+
+      <p class="tools">
+        <strong>Tools:</strong> Python, Speech Recognition, Translation API, AI Image Generation
+      </p>
+
+      <div class="project-links">
+        <a href="https://github.com/Shaik-Kashifa-Misba/speech_to_image" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1e_T2wI2pnmonEOcq2VNysLGStT7uFNEI/view?usp=sharing" target="_blank">Demo Video</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECONDARY PROJECTS -->
+  <div class="project-grid">
+
+    <div class="project-card">
+      <a href="youtube-dashboard.jpg" target="_blank">
+        <img src="youtube-dashboard.jpg" alt="YouTube Trending Analytics">
+      </a>
+      <h4>YouTube Trending Video Analytics</h4>
+      <p>
+        Analysis of YouTube trending videos to understand engagement, views, and content patterns.
+      </p>
+      <a href="https://github.com/Shaik-Kashifa-Misba/-Youtube_video_trend_analytics-" target="_blank">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <a href="data-professional-dashboard.jpg" target="_blank">
+        <img src="data-professional-dashboard.jpg" alt="Data Professional Survey Dashboard">
+      </a>
+      <h4>Data Professional Survey Dashboard</h4>
+      <p>
+        Power BI dashboard analyzing roles, salaries, skills, and career trends.
+      </p>
+    </div>
+    </div>
+   </section>
 
   <!-- ===== LIGHTBOX ===== -->
   <div id="lightbox" class="lightbox">
@@ -134,9 +204,8 @@
   <p>© 2026 Kashifa Misba. Built with ❤️ using HTML, CSS & JavaScript.</p>
 </footer>
 
-
-
   <!-- ===== JS ===== -->
   <script src="script.js"></script>
 </body>
 </html>
+
